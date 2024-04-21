@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#content {
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.title_header {
+    border: 5px solid #333333; /* Frame around the photo */
+    border-radius: 50%; /* Rounded corners */
+    margin-top: 5px;
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background with 50% opacity */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link {
+    color: aliceblue;
+    
+}
+
+#about {
+    
+    color: whitesmoke; /* Change text color here */
+    text-align: center;
+    background-image: url('b1.jpg'); /* Add background image for about section */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#education  {
+    
+    color: whitesmoke; /* Change text color here */
+    text-align: center;
+    background-image: url('b2.jpg'); /* Add background image for about section */
+    background-size:cover;
+    background-position: center;
+}
+
+#skills {
+    
+    color: black; /* Change text color here */
+    text-align: center;
+    background-image: url('background4.jpg'); /* Add background image for skills section */
+    background-size: cover;
+    background-position: center;
+}
+
